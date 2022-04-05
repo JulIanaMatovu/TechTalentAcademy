@@ -4,7 +4,7 @@ console.log(KELVIN);
 let celsius = KELVIN - 273; //conversion: kelvin to celsius
 console.log(celsius); 
 
-let fahrenheit = celsius * (9/5) + 32; //conversion: celsius to fahrenheit; this var type allows reassignment
+let fahrenheit = celsius * (9/5) + 32; //conversion : celsius to fahrenheit; this var type allows reassignment
 console.log(fahrenheit);
 
 fahrenheit = Math.floor(celsius * (9/5) + 32);
