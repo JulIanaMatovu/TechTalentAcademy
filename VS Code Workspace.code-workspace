@@ -9,5 +9,8 @@
         {
             "path": "Week 5"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Week 5"
+    }
 }
