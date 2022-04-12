@@ -17,6 +17,11 @@ for (let x in fruits) {
                 consonants++;
                 break;
         }
+        if (fruits[x][i] === fruits[x][i + 1]) {
+            counter++;
+        }
+
+        console.log(fruits[x] + " has " + (counter + 1) + fruits[x][i]);
     }
     let consoleMessage;
     if (startsWithVowel(fruits[x])) {
