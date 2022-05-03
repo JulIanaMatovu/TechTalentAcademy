@@ -66,7 +66,7 @@ public class Character extends MovementMap{
             HashMap<Integer,Integer> newPosition = new HashMap<Integer,Integer>();
             newPosition.put(greenSnake.currentX,greenSnake.currentY);
 
-            System.out.println("New Position: " + newPosition.keySet().toString().replaceAll("[\\[\\],]","")
+            System.out.println("New Position[X, Y]: " + newPosition.keySet().toString().replaceAll("[\\[\\],]","")
             + "," +newPosition.values().toString().replaceAll("[\\[\\],]",""));
 
             numberOfLives++; //+1 each time until it is equal to user's entered numLives
